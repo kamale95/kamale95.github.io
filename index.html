@@ -1,0 +1,400 @@
+﻿<!--Author      : Kamalesh AP
+    File Name   : index.html
+    Description : Code for the Index Page that displays the WebPage Contents
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>ProfileProject</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="Content/MyStyle.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="Scripts/jquery-3.2.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container" id="mainParentDiv">
+        <nav class="navbar navbar-default bg-danger navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#aboutMe">Home</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#aboutMe" data-toggle="collapse" data-target=".nav-collapse.in">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#skills" data-toggle="collapse" data-target=".nav-collapse.in">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#education" data-toggle="collapse" data-target=".nav-collapse.in">Education</a>
+                        </li>
+                        <li>
+                            <a href="#Projects" data-toggle="collapse" data-target=".nav-collapse.in">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#achievements" data-toggle="collapse" data-target=".nav-collapse.in">Achievements</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--About Me Section-->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="aboutMe" class="heading">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <b>About Me : </b>
+                </h2>
+                <br />
+                <div class="container-fluid" id="imgdiv">
+                    <img id="dp" src="images/kamalimg.png" class="img-circle" alt="Cinque Terre">
+                </div>
+                <br />
+                <br />
+
+                <p class="normalText">
+                    I am Kamalesh AP. I am a resident of Chennai, India. I graduated from SRM University, KTR. I am passionate about
+                    Gadgets, Technology.
+                </p>
+                <p class="normalText">
+                    I aspire to be creative and learning always to successfully deliver highly innovative solutions to challenging problem. I
+                    am an excellent team worker who is willing to work hard. I am goal-oriented and ambitious to reach great
+                    heights. Currently, I am undergoing Training in Full Stack Dot Net Development at Cognizant, Chennai.
+                </p><br />
+                <a href="https://drive.google.com/open?id=1ZbxE_1YaQQpo4f7MwIs2N_4qNCWN3qHI" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" target="_blank" id="resume">View Resume</a>
+            </div>
+        </div>
+        <hr />
+        <!--Skill Section-->
+        <h2 id="skills" class="heading">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+            <b>Skills : </b>
+        </h2>
+        <br />
+        <div class="row">
+            <div class="container col-md-6 " id="profSkills">
+                <h3>
+                    <u>Profesional Skills: </u>
+                </h3>
+                <br />
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="devicon-html5-plain-wordmark"></i>
+                            <b>HTML :</b>
+                            <i class="fa fa fa-star fa-lg htmlStar" id="i1"></i>
+                            <i class="fa fa fa-star fa-lg htmlStar"></i>
+                            <i class="fa fa fa-star fa-lg htmlStar"></i>
+                            <i class="fa fa fa-star fa-lg htmlStar"></i>
+                            <i class="fa fa fa-star fa-lg htmlStar" id="i1l"></i>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="devicon-css3-plain-wordmark"></i>
+                            <b>CSS :</b>
+                            <i class="fa fa fa-star fa-lg" id="i2"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="devicon-javascript-plain"></i>
+                            <b>JAVASCRIPT :</b>
+                            <i class="fa fa fa-star fa-lg" id="i3"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="devicon-bootstrap-plain-wordmark"></i>
+                            <b>BOOTSTRAP :</b>
+                            <i class="fa fa fa-star fa-lg" id="i4"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa fa-star fa-lg"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="container col-md-6 " id="otherSkills">
+                <h3>
+                    <u>Other Skills: </u>
+                </h3>
+                <br />
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="devicon-photoshop-line"></i>
+                            <b>Adobe Photoshop :</b>
+                            <i class="fa fa fa-star " id="i5"></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                            <b>Adobe Lightroom :</b>
+                            <i class="fa fa fa-star " id="i6"></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="devicon-mysql-plain"></i>
+                            <b>SQL Server :</b>
+                            <i class="fa fa fa-star " id="i7"></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa fa-star "></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="lead">
+                            <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                            <a href="https://500px.com/kamaleflash/galleries/animal-photography" target="_blank"><b>Photography :</b></a>
+                            <i class="fa fa-star " id="i8" text></i>
+                            <i class="fa fa-star " aria-hidden="true"></i>
+                            <i class="fa fa-star " aria-hidden="true"></i>
+                            <i class="fa fa-star " aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <!--Education Section-->
+
+        <h2 class="heading" id="education">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <b>Education: </b>
+        </h2>
+        <br />
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Xth Standard </div>
+                    <div class="panel-body">
+                        <dl>
+                            <dt>School :</dt>
+                            <dd><a href="http://www.srdfvv.net/" target="_blank">SRDF Vivekanda Vidhyalaya</a> </dd>
+                        </dl>
+                        <dl>
+                            <dt>Location :</dt>
+                            <dd>Chennai</dd>
+                        </dl>
+                        <dl>
+                            <dt>Board :</dt>
+                            <dd>CBSE</dd>
+                        </dl>
+                        <dl>
+                            <dt>CGPA :</dt>
+                            <dd>10.00 / 10.00</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">XIIth Standard </div>
+                    <div class="panel-body">
+                        <dl>
+                            <dt>School :</dt>
+                            <dd><a href="http://www.srdfvv.net/" target="_blank">SRDF Vivekanda Vidhyalaya</a> </dd>
+                        </dl>
+                        <dl>
+                            <dt>Location :</dt>
+                            <dd>Chennai</dd>
+                        </dl>
+                        <dl>
+                            <dt>Board :</dt>
+                            <dd>HSC</dd>
+                        </dl>
+                        <dl>
+                            <dt>Percentage: </dt>
+                            <dd>90 %</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">University </div>
+                    <div class="panel-body">
+                        <dl>
+                            <dt>College :</dt>
+                            <dd><a href="http://www.srmuniv.ac.in/" target="_blank">SRM University</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>Location :</dt>
+                            <dd>Chennai</dd>
+                        </dl>
+                        <dl>
+                            <dt>Affliation :</dt>
+                            <dd>SRM University</dd>
+                        </dl>
+                        <dl>
+                            <dt>CGPA: </dt>
+                            <dd>8.572 / 10</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Project Section-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="Projects" class="heading">
+                    <i class="fa fa-code-fork" aria-hidden="true"></i>
+                    <b>Projects : </b>
+                </h2>
+                <br />
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href="https://drive.google.com/open?id=1un-yjMTBwIZkgscPH5EjWVHsolwXcXQT" target="_blank"><b>Naive Bayes Categorization Approach using Class Specific Features </b></a>
+                        </h4>
+
+
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <p class="normalText">
+                                    Given a Data-set containing Performance and Feature parameters of Bikes as Input, Naive Bayes
+                                    Classifier algorithm is used to categorize the given set of attributes to Target Class (Bike
+                                    Brands) based on Combined Probablity Scores on Each Attributes
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="normalText">
+                                    GUI is built with the help of R Package called Shiny, and the Backend is powered by R Programming
+                                    Language
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="normalText">
+                                    Research paper was made comparing the performance of the classifier on various input Data-sets
+                                    and published it under International Journal of Control Theory and Application
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <!--Achievements Section-->
+        <h2 class="heading" id="achievements">
+            <i class="fa fa-trophy" aria-hidden="true"></i>
+            <b>Achievements: </b>
+        </h2>
+        <div class="col-lg-12 container">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Event Name</th>
+                            <th>Position</th>
+                            <th>Location</th>
+                            <th>Year</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td><b>Table Tennis Singles</b></td>
+
+                            <td>1st</td>
+                            <td>Annual Sports Day</td>
+                            <td>2009</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><b>Table Tennis Singles</b></td>
+
+                            <td>1st</td>
+                            <td>Annual Sports Day</td>
+                            <td>2010</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><b>Table Tennis Singles</b></td>
+
+                            <td>1st</td>
+                            <td>Annual Sports Day</td>
+                            <td>2011</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><b>TCS IT Wiz</b></td>
+
+                            <td>7th Position</td>
+                            <td>Chennai Regionals</td>
+                            <td>2011</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><b>Gamingdrome (FIFA 11)</b></td>
+
+                            <td>2nd Position</td>
+                            <td>CEG, Guindy</td>
+                            <td>2011</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td><b>Computer Savvy Title</b></td>
+
+                            <td></td>
+                            <td>School Annual Day Function</td>
+                            <td>2012</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td><b>Table Tennis Singles</b></td>
+
+                            <td>1st</td>
+                            <td>Annual Sports Day</td>
+                            <td>2012</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--User Defined JQuery Script-->
+    <script src="Scripts/MyScript.js"></script>
+</body>
+</html>
