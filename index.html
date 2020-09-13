@@ -6,21 +6,101 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Kamalesh Anantha Padmanabhan</title>
 </head>
 
 <body>
-  <div class="row">
-    <div class="col-3">
-      <img src="images/kamalesh.png" class="rounded float-left" alt="Kamalesh Anantha Padmababhan Profile Picture">
-      <h1>Kamalesh Anantha Padmanabhan</h1>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
     </div>
-    <div class="col-9">
-      <h1>Biography</h1>
-      <p>I am a graduate student in the Department of Computer Science at the University of Texas at Dallas graduating in May 2021. I have a Bachelor of Technology degree from the SRM University, Chennai. Previously, I worked at Cognizant, India as a Full Stack Engineer, where I worked on several Web Development projects and create a modern resposive web experiences for the clients. I can design REST APIs and work with Databases</p>
+  </nav>
+  <main>
+    <div class="container-fluid">
+      <div class="row mt-2" id="home">
+        <div class="col-lg-4">
+          <div class="container">
+            <div class="row">
+              <div class="col"><img src="images/kamalesh.png" class="rounded-circle float-left img-thumbnail" alt="Kamalesh Anantha Padmababhan Profile Picture" /> <br>
+                <div class="social-media-buttons p-1 m-2">
+                  <a href="https://github.com/kamaleshanantha" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/kamaleshap/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></div>
+              </div>
+              <div class="col">
+                <h2 class="mx-auto">Kamalesh Anantha Padmanabhan <br>
+                  <small class="text-muted">Full Stack Engineer</small>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="container mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title p-1"> <i class="fas fa-address-card fa-sm"></i> Summary</h2>
+                <hr>
+                <p class="card-text">I am a graduate student in the Department of Computer Science at the <strong>University of Texas at Dallas</strong> graduating by <strong>May 2021</strong>. I have a Bachelor of Technology degree from the SRM University, Chennai. Previously, I worked at Cognizant, India as a <em>Full Stack Engineer</em>, where I worked on several Web Development projects and created a modern resposive web experiences for the clients. I can design REST APIs and work with Databases</p>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-lg-8">
+                <div class="card">
+                  <div class="card-body">
+                    <h2 class="card-title"><i class="fas fa-school fa-sm"></i> Education</h2>
+                    <hr>
+                    <div class="row">
+                      <div class="col-9">
+                        <h5><a href="https://engineering.utdallas.edu/" target="_blank">The University Of Texas - Dallas</a> <br>
+                          <small class="text-muted">Masters in Computer Science</small>
+                        </h5>
+                      </div>
+                      <div class="col-3">
+                        <small class="dates text-muted"><em>May, 2021 (Expected)</em></small>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <div class="col-9">
+                        <h5><a href="https://www.srmist.edu.in/" target="_blank">SRM University, India</a><br>
+                          <small class="text-muted">B.Tech Computer Science and Engineering</small>
+                        </h5>
+                      </div>
+                      <div class="col-3">
+                        <small class="dates text-muted"><em>May, 2017</em></small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </main>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
