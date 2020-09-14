@@ -1,14 +1,29 @@
 .social-media-buttons {
   display: inline-block;
+  padding-left: 0;
 }
+
 .dates {
   font-size: x-small;
   font-weight: 500;
 }
+
 .summary-education {
   background-color: #fafafa;
 }
 
 .work-dates {
   font-size: larger;
+}
+
+.profile-pic {
+  width: 50%;
+}
+
+main {
+  margin-top: 3.5rem;
+}
+
+.workex-section {
+  background-color: #fafafa;
 }

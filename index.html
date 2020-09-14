@@ -14,9 +14,9 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Profile</a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#summary">Summary</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#workex">Experience</a>
         </li>
       </ul>
     </div>
@@ -40,23 +43,27 @@
     <div class="container-fluid">
       <section id="summary" class="summary-education">
         <div class="row mt-2" id="home">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <div class="container">
               <div class="row">
-                <div class="col"><img src="images/kamalesh.png" class="rounded-circle float-left img-thumbnail" alt="Kamalesh Anantha Padmababhan Profile Picture" />
-                  <div class="social-media-buttons p-1 m-2">
-                    <a href="https://github.com/kamaleshanantha" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
-                    <a href="https://www.linkedin.com/in/kamaleshap/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></div>
+                <img src="images/kamalesh.png" class="profile-pic rounded-circle float-left img-thumbnail" alt="Kamalesh Anantha Padmababhan Profile Picture" />
+              </div>
+              <h2 class="mx-auto">Kamalesh Anantha Padmanabhan <br>
+                <small class="text-muted">vGHC 20 | Full Stack Engineer | Data Structures and Algorithm Enthusiast</small>
+              </h2>
+              <div class="row mt-4">
+                <div class="col">
+                  <a class="btn btn-primary btn-lg ml-auto mx-auto" target="_blank" href="https://drive.google.com/file/d/1E0qqCIPjJWAYMd9Z6xmOblwHqC_qdt5P/view?usp=sharing">View Resume</a>
                 </div>
                 <div class="col">
-                  <h2 class="mx-auto">Kamalesh Anantha Padmanabhan <br>
-                    <small class="text-muted">Full Stack Engineer</small>
-                  </h2>
+                  <div class="social-media-buttons">
+                    <a href="https://github.com/kamaleshanantha" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/kamaleshap/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <div class="container mt-2">
               <div class="row">
                 <div class="card">
@@ -67,7 +74,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row mt-3">
+              <div class="row mt-3" id="education">
                 <div class="card col-lg-12">
                   <div class="card-body">
                     <h2 class="card-title"><i class="fas fa-school fa-sm"></i> Education</h2>
@@ -253,61 +260,63 @@
           </div>
         </div>
       </section>
-      <section id="workex">
-        <h1><i class="fas fa-sort-amount-up fa-md"></i> Industry Experience</h1>
-        <hr>
-        <div class="card col-12 mb-3">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-9">
-                <h4 class="card-title"><i class="fab fa-chrome fa-lg"></i> Web Developer - Student Worker <br> <br>
-                  <small> <strong>University Of Texas - Dallas</strong></small>
-                </h4>
-              </div>
-              <div class="col-3">
-                <p class="work-dates font-weight-bold text-right"> Jan, 2020 - Present </p>
-              </div>
-            </div>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Work on managing 100+ websites for Naveen Jindal School of Management at University of Texas, Dallas</li>
-            <li class="list-group-item">Replace legacy web components and create a modern responsive web experience for all users </li>
-            <li class="list-group-item">Work on an agile team, adopting and driving best software engineering practices</li>
+      <section id="workex" class="workex-section">
+        <div class="container-fluid">
+          <h1><i class="fas fa-sort-amount-up fa-md"></i> Industry Experience</h1>
+          <hr>
+          <div class="card col-12 mb-3">
             <div class="card-body">
-              <p><strong>Tech Stack:</strong> HTML5 · CSS · JavaScript · Bootstrap</p>
-            </div>
-          </ul>
-        </div>
-        <div class="card col-12 mb-3">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-9">
-                <h4 class="card-title"><i class="fas fa-layer-group"></i> Full Stack Engineer <br> <br>
-                  <small> <strong>Cognizant</strong></small> </h4>
-              </div>
-              <div class="col-3">
-                <p class="work-dates font-weight-bold text-right"> Sep, 2017 - Jun, 2019 </p>
+              <div class="row">
+                <div class="col-9">
+                  <h4 class="card-title"><i class="fab fa-chrome fa-lg"></i> Web Developer - Student Worker <br> <br>
+                    <small> <strong>University Of Texas - Dallas</strong></small>
+                  </h4>
+                </div>
+                <div class="col-3">
+                  <p class="work-dates font-weight-bold text-right"> Jan, 2020 - Present </p>
+                </div>
               </div>
             </div>
-            
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Work on managing 100+ websites for Naveen Jindal School of Management at University of Texas, Dallas</li>
+              <li class="list-group-item">Replace legacy web components and create a modern responsive web experience for all users </li>
+              <li class="list-group-item">Work on an agile team, adopting and driving best software engineering practices</li>
+              <div class="card-body">
+                <p><strong>Tech Stack:</strong> HTML5 · CSS · JavaScript · Bootstrap</p>
+              </div>
+            </ul>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Developed Trading Management System for Glencore Agriculture Company. The system will keep track of commodities and goods related information from the point of origination till delivery.</li>
-            <li class="list-group-item"> Created a generic Angular component and implemented an algorithm to handle the responsive design across 25+ modules using content projection and increased page load times by several seconds.</li>
-            <li class="list-group-item">Refactored legacy components into reusable libraries. Did QA testing using Jasmine framework.</li>
+          <div class="card col-12 mb-3">
             <div class="card-body">
-              <p><strong>Tech Stack:</strong> Angular · Java · HTML5 · Spring Boot · SCSS · Bootstrap · TypeScript · Jasmine · Oracle 12c</p>
+              <div class="row">
+                <div class="col-9">
+                  <h4 class="card-title"><i class="fas fa-layer-group"></i> Full Stack Engineer <br> <br>
+                    <small> <strong>Cognizant</strong></small> </h4>
+                </div>
+                <div class="col-3">
+                  <p class="work-dates font-weight-bold text-right"> Sep, 2017 - Jun, 2019 </p>
+                </div>
+              </div>
             </div>
-          </ul>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Developed Trading Management System for Glencore Agriculture Company. The system will keep track of commodities and goods related information from the point of origination till delivery.</li>
+              <li class="list-group-item"> Created a generic Angular component and implemented an algorithm to handle the responsive design across 25+ modules using content projection and increased page load times by several seconds.</li>
+              <li class="list-group-item">Refactored legacy components into reusable libraries. Did QA testing using Jasmine framework.</li>
+              <div class="card-body">
+                <p><strong>Tech Stack:</strong> Angular · Java · HTML5 · Spring Boot · SCSS · Bootstrap · TypeScript · Jasmine · Oracle 12c</p>
+              </div>
+            </ul>
+          </div>
         </div>
       </section>
     </div>
   </main>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="./js/auto-hiding-bootstrap-navbar.min.js"></script>
 </body>
 
 </html>
