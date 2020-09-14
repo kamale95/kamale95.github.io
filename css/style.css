@@ -27,3 +27,13 @@ main {
 .workex-section {
   background-color: #fafafa;
 }
+
+#skills img {
+  width: 100%;
+}
+
+#projects img {
+  width: 50%;
+  height: auto;
+  align-content: center;
+}
