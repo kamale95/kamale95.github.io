@@ -3,10 +3,7 @@
   padding-left: 0;
 }
 
-.dates {
-  font-size: x-small;
-  font-weight: 500;
-}
+
 
 .summary-education {
   background-color: #fafafa;
@@ -53,5 +50,9 @@ main {
   }
   .work-dates {
     font-size: small;
+  }
+  .dates {
+    font-size: x-small;
+    font-weight: 500;
   }
 }
