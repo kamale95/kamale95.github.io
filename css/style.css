@@ -12,9 +12,7 @@
   background-color: #fafafa;
 }
 
-.work-dates {
-  font-size: larger;
-}
+
 
 .profile-pic {
   width: 50%;
@@ -28,12 +26,30 @@ main {
   background-color: #fafafa;
 }
 
-#skills img {
-  width: 100%;
+@media only screen and (min-width: 600px) {
+  #skills img, #skills svg {
+    width: 50%;
+  }
+  #projects img {
+    width: 200px;
+    height: auto;
+    align-content: center;
+  }
+  .work-dates {
+    font-size: larger;
+  }
 }
 
-#projects img {
-  width: 50%;
-  height: auto;
-  align-content: center;
+@media only screen and (max-width: 599px) {
+  #skills img, #skills svg {
+    width: 100%;
+  }
+  #projects img {
+    width: 150px;
+    height: auto;
+    align-content: center;
+  }
+  .work-dates {
+    font-size: small;
+  }
 }
